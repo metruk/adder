@@ -23,7 +23,7 @@ public class Main {
 					id=null;
 				}
 			}
-		ParserService ps = new ParserService();
+		GroupGetId gId = new GroupGetId();
 		Adder add= new Adder(token,groupId);
 		add.addToFriend();
 	}
